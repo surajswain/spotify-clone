@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #12493e;
+    font-weight: bold;
+}
+
+#progressBar {
+    cursor: pointer;
+    width: 80vw;
+}
+
+.navbar {
+    /* border: 3px solid rgb(4, 0, 255); */
+    background-color: black;
+    color: white;
+    height: 57px;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+}
+
+.navbarbutton {
+    cursor: pointer;
+}
+
+.logo {
+    width: 45px;
+    padding: 2px;
+}
+
+.logo1 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* left: 0px; */
+
+}
+
+.navbar ul li {
+    padding: 2px 18px 2px 4px;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+
+.container {
+    margin: 10px 0px;
+    padding: 15px 5px;
+    min-height: 70vh;
+    margin: 10px auto;
+    width: 70%;
+    color: white;
+    background: url('bg.jpg');
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+    /* padding: 34px; */
+}
+
+.musiclist {
+    padding: 12px 8px;
+}
+
+.musiclist h2 {
+    margin-bottom: 30px;
+}
+
+.songinfo {
+    background-color: white;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    border-radius: 15px;
+    height: 8vh;
+    width: 30vw;
+    margin: 17px 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songinfo img {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.songinfo i {
+    cursor: pointer;
+}
+
+
+
+.bottom {
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom input {
+    width: 90vw;
+}
+
+.icons {
+
+    margin-top: 08px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.playingGif {
+    position: absolute;
+    top: 40px;
+    left: 10vw;
+
+}
+
+.playingGif img {
+    width: 30px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
